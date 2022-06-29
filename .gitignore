@@ -1,1 +1,3 @@
-build/*turkish_coffee.jpg
+build/*
+turkish_coffee.jpg
+resnet50.onnx
