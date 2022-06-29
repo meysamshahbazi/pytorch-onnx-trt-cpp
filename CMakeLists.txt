@@ -11,6 +11,6 @@ find_package(OpenCV REQUIRED)
 find_package(TensorRT REQUIRED)
 
 # TARGETS --------------------------------------------------------------------------------------------------------------
-add_executable(trt_sample trt_sample.cpp)
+add_executable(trt_sample main.cpp)
 target_include_directories(trt_sample PUBLIC ${OpenCV_INCLUDE_DIRS} ${CUDA_INCLUDE_DIRS} ${TensorRT_INCLUDE_DIRS})
 target_link_libraries(trt_sample PUBLIC ${OpenCV_LIBS} ${CUDA_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT} ${TensorRT_LIBRARIES})
