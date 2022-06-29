@@ -1,3 +1,4 @@
 build/*
 turkish_coffee.jpg
 resnet50.onnx
+.vscode/
